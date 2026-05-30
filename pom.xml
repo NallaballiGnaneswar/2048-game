@@ -7,11 +7,15 @@
 
     <groupId>com.eswar</groupId>
     <artifactId>2048-game</artifactId>
-    <version>1.0.0</version>
-
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>2048 Game</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
     <build>
         <finalName>2048-game</finalName>

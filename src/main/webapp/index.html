@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2048 Game</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>2048 Game</h1>
-<h2>Score: <span id="score">0</span></h2>
+    <h1>2048 Game</h1>
 
-<div id="board"></div>
+    <div class="score-container">
+        Score: <span id="score">0</span>
+    </div>
 
-<button onclick="startGame()">New Game</button>
+    <div id="board"></div>
 
-<script src="js/game.js"></script>
+    <button onclick="startGame()">New Game</button>
+
+    <script src="js/game.js"></script>
 
 </body>
 </html>

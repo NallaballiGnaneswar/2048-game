@@ -11,11 +11,13 @@ h1 {
 #board {
     width: 420px;
     height: 420px;
-    margin: auto;
+    margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
     gap: 5px;
+    background: #bbada0;
+    padding: 5px;
 }
 
 .tile {
@@ -27,4 +29,22 @@ h1 {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
+    border-radius: 5px;
+}
+
+.tile-2 { background: #eee4da; }
+.tile-4 { background: #ede0c8; }
+.tile-8 { background: #f2b179; color: white; }
+.tile-16 { background: #f59563; color: white; }
+.tile-32 { background: #f67c5f; color: white; }
+.tile-64 { background: #f65e3b; color: white; }
+.tile-128 { background: #edcf72; color: white; }
+.tile-256 { background: #edcc61; color: white; }
+.tile-512 { background: #edc850; color: white; }
+.tile-1024 { background: #edc53f; color: white; }
+.tile-2048 { background: #edc22e; color: white; }
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
 }
